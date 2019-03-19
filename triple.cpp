@@ -3,7 +3,7 @@
 using namespace std;
 
 Triple::Triple(string _subject, string _predicate, string _object) noexcept
-  : subject(_subject), predicate(_predicate), object(_object)
+    : subject(_subject), predicate(_predicate), object(_object)
 {
   //empty
 }

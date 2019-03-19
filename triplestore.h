@@ -17,6 +17,7 @@ class TripleStore
   tripleStore elements;
 
   std::vector<std::string> get_queries(std::string);
+
 public:
   TripleStore() noexcept;
 
